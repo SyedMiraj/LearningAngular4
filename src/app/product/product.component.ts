@@ -12,4 +12,13 @@ export class ProductComponent implements OnInit {
   ngOnInit() {
   }
 
+  personal = {
+  	name : "Shahriar Miraj",
+  	age : 29
+  }
+
+  arr = ["Abdullah", "Ereen", "Humayra" ,"Intisha", "Obayedullah", "Faria", "Faiza"];
+
+  checkBoolean = true;
+
 }

@@ -1,3 +1,30 @@
-<p>
-  product works!
-</p>
+
+<br>
+======== Practicing data binding in Angular 4 ======= 
+<br>
+
+<h3>
+  My name is {{personal.name}} and my age is {{personal.age}}
+</h3>
+
+<br>
+======== Practicing ngFor in Angular 4 ======= 
+<br>
+<ul>
+	<li *ngFor = "let name of arr">{{name}}</li>
+</ul>
+
+<br>
+======== Practicing ngIf in Angular 4 =======
+<br>
+
+<h3 *ngIf = "checkBoolean">The value is true</h3>
+
+<br>
+======== Practicing ngIf else in Angular 4 =======
+<br>
+
+<h3 *ngIf = "checkBoolean; then secondTemplate else firstTemplate">The value is true</h3>
+
+<ng-template #firstTemplate>This is the for true template</ng-template>
+<ng-template #secondTemplate>This is the for false template</ng-template>
